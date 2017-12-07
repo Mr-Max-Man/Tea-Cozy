@@ -1,0 +1,14 @@
+.all {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+}
+header * {
+  margin: 10px;
+}

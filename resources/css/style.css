@@ -6,6 +6,13 @@
   opacity: 0.9;
   text-align: center;
 }
+h2 {
+  font-size: 34px;
+  margin: 10px;
+}
+h4 {
+  margin: 10px;
+}
 
 header {
   display: flex;
@@ -30,10 +37,25 @@ header a {
 }
 
 .not-header {
-  margin-top: 69px;
+  padding-top: 69px;
+  display: flex;
+  justify-content: center;
 }
 
 .big-img {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
+  width: 83.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-bar {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
 }

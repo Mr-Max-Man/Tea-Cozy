@@ -1,3 +1,4 @@
+/* Universal Rules */
 * {
   font-family: Helvetica;
   font-size: 22px;
@@ -6,6 +7,7 @@
   opacity: 0.9;
   text-align: center;
 }
+
 h2 {
   font-size: 34px;
   margin: 10px;
@@ -13,6 +15,11 @@ h2 {
 h4 {
   margin: 10px;
 }
+.section {
+  padding-top: 69px;
+}
+
+/* Header Section */
 
 header {
   display: flex;
@@ -36,10 +43,12 @@ header a {
   text-decoration: underline;
 }
 
+/* Mission Section*/
+
 .not-header {
-  padding-top: 69px;
   display: flex;
-  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 .big-img {
@@ -58,4 +67,42 @@ header a {
   justify-content: space-between;
   align-content: space-around;
   align-items: center;
+}
+
+/* Featured Tea Section */
+
+#feat-tea {
+  width: 75%
+}
+
+.tea-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tea-item * {
+  margin: 10px;
+}
+
+.tea-item img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations Section */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 83.33%;
+}
+.no-black {
+  background-color: red;
+}
+
+#location-list {
+  display: flex;
 }
